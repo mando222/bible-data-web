@@ -1,0 +1,13 @@
+{
+  "edition": "WEB",
+  "migration": "302bb5f92f1e05bf4b96c894f96da77a4cf10845",
+  "sources": [
+    {
+      "asset": "helloao_ENGWEBP.json",
+      "sha256": "43577d2d64ad722c04c0b5591e12cf5193c64a5b6dc13a28089ff797a16140d6",
+      "url": "https://bible.helloao.org/api/ENGWEBP/complete.json",
+      "license": "Public Domain",
+      "credit": "World English Bible. Public Domain (eBible.org)."
+    }
+  ]
+}
