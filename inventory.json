@@ -1,13 +1,726 @@
 {
   "edition": "WEB",
-  "migration": "302bb5f92f1e05bf4b96c894f96da77a4cf10845",
-  "sources": [
+  "format": 1,
+  "candidates": [
     {
-      "asset": "helloao_ENGWEBP.json",
-      "sha256": "43577d2d64ad722c04c0b5591e12cf5193c64a5b6dc13a28089ff797a16140d6",
+      "name": "Free Use Bible API edition snapshot",
       "url": "https://bible.helloao.org/api/ENGWEBP/complete.json",
-      "license": "Public Domain",
-      "credit": "World English Bible. Public Domain (eBible.org)."
+      "sha256": "43577d2d64ad722c04c0b5591e12cf5193c64a5b6dc13a28089ff797a16140d6",
+      "rights": "Public-domain edition text. Preserve publisher credits and applicable territorial notices.",
+      "establishes": "The pinned v0.5.0 published text and its edition-specific layout."
+    },
+    {
+      "name": "eBible.org USFM",
+      "url": "https://ebible.org/Scriptures/engwebp_usfm.zip",
+      "catalog": "https://ebible.org/details.php?id=engwebp",
+      "sha256": "3bb1ac4fe06e9adf50fe6659237fa0b3743bf651ce15cc9acebc36c5070ae62d",
+      "books": [
+        "1CH",
+        "1CO",
+        "1JN",
+        "1KI",
+        "1PE",
+        "1SA",
+        "1TH",
+        "1TI",
+        "2CH",
+        "2CO",
+        "2JN",
+        "2KI",
+        "2PE",
+        "2SA",
+        "2TH",
+        "2TI",
+        "3JN",
+        "ACT",
+        "AMO",
+        "COL",
+        "DAN",
+        "DEU",
+        "ECC",
+        "EPH",
+        "EST",
+        "EXO",
+        "EZK",
+        "EZR",
+        "FRT",
+        "GAL",
+        "GEN",
+        "GLO",
+        "HAB",
+        "HAG",
+        "HEB",
+        "HOS",
+        "ISA",
+        "JAS",
+        "JDG",
+        "JER",
+        "JHN",
+        "JOB",
+        "JOL",
+        "JON",
+        "JOS",
+        "JUD",
+        "LAM",
+        "LEV",
+        "LUK",
+        "MAL",
+        "MAT",
+        "MIC",
+        "MRK",
+        "NAM",
+        "NEH",
+        "NUM",
+        "OBA",
+        "PHM",
+        "PHP",
+        "PRO",
+        "PSA",
+        "REV",
+        "ROM",
+        "RUT",
+        "SNG",
+        "TIT",
+        "ZEC",
+        "ZEP"
+      ],
+      "rights": "World English Bible ^ < > World English Bible The World English Bible The World English Bible is in the Public Domain. That means that it is not copyrighted. However, \"World English Bible\" is a Trademark of eBible.org. You may copy, publish, proclaim, distribute, redistribute, sell, give away, quote, memorize, read publicly, broadcast, transmit, share, back up, post on the Internet, print, reproduce, preach, teach from, and use the World English Bible as much as you want, and others may also do so. All we ask is that if you CHANGE the actual text of the World English Bible in any way, you not call the result the World English Bible any more. This is to avoid confusion, not to limit your freedom. The Holy Bible is God's Word. It belongs to God. He gave it to us freely, and we who have worked on this translation freely give it to you by dedicating it to the Public Domain. Donations to help with the expenses of this project and thus help others have free access to the Word of God may be made to us, but are not required. Please see https://MLJohnson.org/partner/ for more about that. The master copy of this Bible translation is posted on https://eBible.org/web/ and at https://WorldEnglish.Bible . 2020 stable text edition HTML generated with Haiola by eBible.org 13 Nov 2026 from source files dated 13 Nov 2026 ^ < > This is the updated World English Bible with the 66-book protocanon only. Frequently Asked Questions The World English Bible is in the Public Domain. You may copy and share it freely. Downloads Please report any typos you find. Donations Public Domain",
+      "establishes": "Edition-specific markup and any word-level tags as supplied by the distributor. An archive hash identifies the precise snapshot. See upstream/ for the unchanged source and embedded rights notice."
+    },
+    {
+      "name": "BSB publisher alignment",
+      "url": "https://bereanbible.com/bsb_tables.tsv",
+      "rights": "Berean Bible, public domain. BSB Publishing, LLC.",
+      "sha256": "aa2a9a0f004d015738cd1839c7c56c3be2549e0d4f4537090c2017268c223c60",
+      "establishes": "Direct BSB English-to-source rows. Checking the same English rendering supplies corroboration for a dictionary tag in another edition; it does not by itself establish a restoration."
+    },
+    {
+      "name": "STEPBible TAGNT and TAHOT",
+      "url": "https://github.com/STEPBible/STEPBible-Data/tree/f71b5e51f2d768ae72e3ed69743a7a9df25ef8b5",
+      "revision": "f71b5e51f2d768ae72e3ed69743a7a9df25ef8b5",
+      "rights": "CC BY 4.0, STEPBible / Tyndale House. Greek forms, Strong’s IDs, transliterations and morphology reproduced from TAGNT. Hebrew comparison data from TAHOT.",
+      "checksums": {
+        "SCR-ASCII.ZIP": "3c17d58a5904b0ba738d7853b6be7fc0fca3b78fe2b094522db21421615f2eb3",
+        "BYZ-ASCII.ZIP": "720dc75ca0edc761e6a4af01cc5ed58d114a7110954633900792a5b4e6e5eb4a",
+        "tagnt_mat-jhn.txt": "ab8eaaeb68e17a1dcfa34e1e9350358f22f03bc2a97244d848750ad81044bc8e",
+        "tagnt_act-rev.txt": "524e32375361e6d3fa2f7ef00b87605fdc4317a762f395651a05fdc31ad031b7",
+        "tahot_gen-deu.txt": "e9b8546ee48fe0bfc57c3b70f5f40e98d96580e803526d19026224e31753368b",
+        "tahot_jos-est.txt": "195fee1dc3653bab33701f170734eb894ed647c10cd08cc61749375fe8b73775",
+        "tahot_job-sng.txt": "84e118a97e5725e3847cdfdd593873513021c790c63cc91a0d41fca2b5db2ed5",
+        "tahot_isa-mal.txt": "f3ded203d2a74d6368932c97ae550d1d0754b271af491dc0dedf36fe3ba0bcc5"
+      },
+      "printedOrder": "https://www.byztxt.com/downloads.html",
+      "establishes": "Greek edition readings and Masoretic lexical occurrences at a mapped verse. ROBINSON Scrivener/Byzantine archives check unaccented printed order."
+    },
+    {
+      "name": "World English Bible publisher",
+      "url": "https://worldenglish.bible/",
+      "rights": "Public domain; World English Bible is a trademark.",
+      "establishes": "Edition identity, revisions and translation source policy. The underlying readings can vary by passage."
     }
-  ]
+  ],
+  "gaps": "The distributor supplies word-level tags, including demonstrably incorrect within-verse assignments. An exact tagged English span alone cannot establish a Hebrew or Greek position. John 11:35 has a reviewed occurrence. The text is the Protestant Updated edition.",
+  "books": {
+    "Gen": {
+      "targetVerses": 1533,
+      "distributorVerseUnits": 1533,
+      "distributorWordTags": 32165,
+      "tagsOnMatchingEnglish": 27568,
+      "awaitingReview": 25594,
+      "rejectedConflicts": 2,
+      "publishedLookups": 1972,
+      "unmatchedVerseTags": 4597
+    },
+    "Exod": {
+      "targetVerses": 1213,
+      "distributorVerseUnits": 1213,
+      "distributorWordTags": 28297,
+      "tagsOnMatchingEnglish": 25822,
+      "awaitingReview": 24329,
+      "publishedLookups": 1493,
+      "unmatchedVerseTags": 2475
+    },
+    "Lev": {
+      "targetVerses": 859,
+      "distributorVerseUnits": 859,
+      "distributorWordTags": 21571,
+      "tagsOnMatchingEnglish": 20264,
+      "awaitingReview": 19297,
+      "publishedLookups": 967,
+      "unmatchedVerseTags": 1307
+    },
+    "Num": {
+      "targetVerses": 1288,
+      "distributorVerseUnits": 1288,
+      "distributorWordTags": 28337,
+      "tagsOnMatchingEnglish": 26461,
+      "awaitingReview": 25092,
+      "publishedLookups": 1369,
+      "unmatchedVerseTags": 1876
+    },
+    "Deut": {
+      "targetVerses": 959,
+      "distributorVerseUnits": 959,
+      "distributorWordTags": 25229,
+      "tagsOnMatchingEnglish": 22864,
+      "awaitingReview": 21772,
+      "publishedLookups": 1092,
+      "unmatchedVerseTags": 2365
+    },
+    "Josh": {
+      "targetVerses": 658,
+      "distributorVerseUnits": 658,
+      "distributorWordTags": 16724,
+      "tagsOnMatchingEnglish": 15217,
+      "publishedLookups": 1122,
+      "awaitingReview": 14095,
+      "unmatchedVerseTags": 1507
+    },
+    "Judg": {
+      "targetVerses": 618,
+      "distributorVerseUnits": 618,
+      "distributorWordTags": 16563,
+      "tagsOnMatchingEnglish": 14257,
+      "awaitingReview": 13396,
+      "publishedLookups": 861,
+      "unmatchedVerseTags": 2306
+    },
+    "Ruth": {
+      "targetVerses": 85,
+      "distributorVerseUnits": 85,
+      "distributorWordTags": 2241,
+      "tagsOnMatchingEnglish": 2093,
+      "awaitingReview": 1965,
+      "publishedLookups": 128,
+      "unmatchedVerseTags": 148
+    },
+    "1Sam": {
+      "targetVerses": 810,
+      "distributorVerseUnits": 810,
+      "distributorWordTags": 21805,
+      "tagsOnMatchingEnglish": 18108,
+      "awaitingReview": 17003,
+      "publishedLookups": 1105,
+      "unmatchedVerseTags": 3697
+    },
+    "2Sam": {
+      "targetVerses": 695,
+      "distributorVerseUnits": 695,
+      "distributorWordTags": 17653,
+      "tagsOnMatchingEnglish": 13905,
+      "awaitingReview": 13045,
+      "publishedLookups": 860,
+      "unmatchedVerseTags": 3748
+    },
+    "1Kgs": {
+      "targetVerses": 816,
+      "distributorVerseUnits": 816,
+      "distributorWordTags": 20932,
+      "tagsOnMatchingEnglish": 16670,
+      "awaitingReview": 15526,
+      "publishedLookups": 1144,
+      "unmatchedVerseTags": 4262
+    },
+    "2Kgs": {
+      "targetVerses": 719,
+      "distributorVerseUnits": 719,
+      "distributorWordTags": 20545,
+      "tagsOnMatchingEnglish": 15497,
+      "publishedLookups": 972,
+      "awaitingReview": 14525,
+      "unmatchedVerseTags": 5048
+    },
+    "1Chr": {
+      "targetVerses": 942,
+      "distributorVerseUnits": 942,
+      "distributorWordTags": 16772,
+      "tagsOnMatchingEnglish": 14264,
+      "publishedLookups": 1413,
+      "awaitingReview": 12851,
+      "unmatchedVerseTags": 2508
+    },
+    "2Chr": {
+      "targetVerses": 822,
+      "distributorVerseUnits": 822,
+      "distributorWordTags": 22850,
+      "tagsOnMatchingEnglish": 17510,
+      "awaitingReview": 16315,
+      "publishedLookups": 1195,
+      "unmatchedVerseTags": 5340
+    },
+    "Ezra": {
+      "targetVerses": 280,
+      "distributorVerseUnits": 280,
+      "distributorWordTags": 5993,
+      "unmatchedVerseTags": 864,
+      "tagsOnMatchingEnglish": 5129,
+      "publishedLookups": 333,
+      "awaitingReview": 4796
+    },
+    "Neh": {
+      "targetVerses": 406,
+      "distributorVerseUnits": 406,
+      "distributorWordTags": 8353,
+      "tagsOnMatchingEnglish": 7714,
+      "awaitingReview": 7181,
+      "publishedLookups": 533,
+      "unmatchedVerseTags": 639
+    },
+    "Esth": {
+      "targetVerses": 167,
+      "distributorVerseUnits": 167,
+      "distributorWordTags": 5075,
+      "tagsOnMatchingEnglish": 2730,
+      "awaitingReview": 2547,
+      "publishedLookups": 183,
+      "unmatchedVerseTags": 2345
+    },
+    "Job": {
+      "targetVerses": 1070,
+      "distributorVerseUnits": 1070,
+      "distributorWordTags": 15281,
+      "tagsOnMatchingEnglish": 14779,
+      "awaitingReview": 14033,
+      "publishedLookups": 746,
+      "unmatchedVerseTags": 502
+    },
+    "Ps": {
+      "targetVerses": 2461,
+      "distributorVerseUnits": 2461,
+      "distributorWordTags": 31469,
+      "tagsOnMatchingEnglish": 29780,
+      "awaitingReview": 28616,
+      "publishedLookups": 1164,
+      "unmatchedVerseTags": 1689
+    },
+    "Prov": {
+      "targetVerses": 915,
+      "distributorVerseUnits": 915,
+      "distributorWordTags": 12632,
+      "tagsOnMatchingEnglish": 11696,
+      "awaitingReview": 10920,
+      "publishedLookups": 776,
+      "unmatchedVerseTags": 936
+    },
+    "Eccl": {
+      "targetVerses": 222,
+      "distributorVerseUnits": 222,
+      "distributorWordTags": 4994,
+      "tagsOnMatchingEnglish": 4655,
+      "awaitingReview": 4333,
+      "publishedLookups": 322,
+      "unmatchedVerseTags": 339
+    },
+    "Song": {
+      "targetVerses": 117,
+      "distributorVerseUnits": 117,
+      "distributorWordTags": 2119,
+      "unmatchedVerseTags": 225,
+      "tagsOnMatchingEnglish": 1894,
+      "awaitingReview": 1806,
+      "publishedLookups": 88
+    },
+    "Isa": {
+      "targetVerses": 1292,
+      "distributorVerseUnits": 1292,
+      "distributorWordTags": 32574,
+      "tagsOnMatchingEnglish": 29605,
+      "awaitingReview": 28203,
+      "publishedLookups": 1402,
+      "unmatchedVerseTags": 2969
+    },
+    "Jer": {
+      "targetVerses": 1364,
+      "distributorVerseUnits": 1364,
+      "distributorWordTags": 38545,
+      "tagsOnMatchingEnglish": 33374,
+      "awaitingReview": 31482,
+      "publishedLookups": 1892,
+      "unmatchedVerseTags": 5171
+    },
+    "Lam": {
+      "targetVerses": 154,
+      "distributorVerseUnits": 154,
+      "distributorWordTags": 3098,
+      "tagsOnMatchingEnglish": 2910,
+      "awaitingReview": 2786,
+      "publishedLookups": 124,
+      "unmatchedVerseTags": 188
+    },
+    "Ezek": {
+      "targetVerses": 1273,
+      "distributorVerseUnits": 1273,
+      "distributorWordTags": 34986,
+      "tagsOnMatchingEnglish": 32729,
+      "awaitingReview": 31393,
+      "publishedLookups": 1336,
+      "unmatchedVerseTags": 2257
+    },
+    "Dan": {
+      "targetVerses": 357,
+      "distributorVerseUnits": 357,
+      "distributorWordTags": 9409,
+      "tagsOnMatchingEnglish": 8784,
+      "awaitingReview": 8254,
+      "publishedLookups": 530,
+      "unmatchedVerseTags": 625
+    },
+    "Hos": {
+      "targetVerses": 197,
+      "distributorVerseUnits": 197,
+      "distributorWordTags": 4133,
+      "unmatchedVerseTags": 239,
+      "tagsOnMatchingEnglish": 3894,
+      "awaitingReview": 3735,
+      "publishedLookups": 159
+    },
+    "Joel": {
+      "targetVerses": 73,
+      "distributorVerseUnits": 73,
+      "distributorWordTags": 1296,
+      "unmatchedVerseTags": 35,
+      "tagsOnMatchingEnglish": 1261,
+      "publishedLookups": 54,
+      "awaitingReview": 1207
+    },
+    "Amos": {
+      "targetVerses": 146,
+      "distributorVerseUnits": 146,
+      "distributorWordTags": 3690,
+      "tagsOnMatchingEnglish": 3440,
+      "awaitingReview": 3242,
+      "publishedLookups": 198,
+      "unmatchedVerseTags": 250
+    },
+    "Obad": {
+      "targetVerses": 21,
+      "distributorVerseUnits": 21,
+      "distributorWordTags": 562,
+      "unmatchedVerseTags": 55,
+      "tagsOnMatchingEnglish": 507,
+      "awaitingReview": 482,
+      "publishedLookups": 25
+    },
+    "Jonah": {
+      "targetVerses": 48,
+      "distributorVerseUnits": 48,
+      "distributorWordTags": 1097,
+      "unmatchedVerseTags": 210,
+      "tagsOnMatchingEnglish": 887,
+      "awaitingReview": 856,
+      "publishedLookups": 31
+    },
+    "Mic": {
+      "targetVerses": 105,
+      "distributorVerseUnits": 105,
+      "distributorWordTags": 2646,
+      "unmatchedVerseTags": 292,
+      "tagsOnMatchingEnglish": 2354,
+      "publishedLookups": 127,
+      "awaitingReview": 2227
+    },
+    "Nah": {
+      "targetVerses": 47,
+      "distributorVerseUnits": 47,
+      "distributorWordTags": 941,
+      "tagsOnMatchingEnglish": 941,
+      "awaitingReview": 895,
+      "publishedLookups": 46
+    },
+    "Hab": {
+      "targetVerses": 56,
+      "distributorVerseUnits": 56,
+      "distributorWordTags": 1226,
+      "tagsOnMatchingEnglish": 1068,
+      "awaitingReview": 999,
+      "publishedLookups": 69,
+      "unmatchedVerseTags": 158
+    },
+    "Zeph": {
+      "targetVerses": 53,
+      "distributorVerseUnits": 53,
+      "distributorWordTags": 1459,
+      "unmatchedVerseTags": 244,
+      "tagsOnMatchingEnglish": 1215,
+      "awaitingReview": 1148,
+      "publishedLookups": 67
+    },
+    "Hag": {
+      "targetVerses": 38,
+      "distributorVerseUnits": 38,
+      "distributorWordTags": 985,
+      "unmatchedVerseTags": 249,
+      "tagsOnMatchingEnglish": 736,
+      "awaitingReview": 675,
+      "publishedLookups": 61
+    },
+    "Zech": {
+      "targetVerses": 211,
+      "distributorVerseUnits": 211,
+      "distributorWordTags": 5504,
+      "unmatchedVerseTags": 916,
+      "tagsOnMatchingEnglish": 4588,
+      "awaitingReview": 4343,
+      "publishedLookups": 245
+    },
+    "Mal": {
+      "targetVerses": 55,
+      "distributorVerseUnits": 55,
+      "distributorWordTags": 1418,
+      "unmatchedVerseTags": 182,
+      "tagsOnMatchingEnglish": 1236,
+      "publishedLookups": 42,
+      "awaitingReview": 1194
+    },
+    "Matt": {
+      "targetVerses": 1071,
+      "distributorVerseUnits": 1071,
+      "distributorWordTags": 21276,
+      "tagsOnMatchingEnglish": 17532,
+      "awaitingReview": 14283,
+      "publishedLookups": 3249,
+      "unmatchedVerseTags": 3744
+    },
+    "Mark": {
+      "targetVerses": 678,
+      "distributorVerseUnits": 678,
+      "distributorWordTags": 13252,
+      "tagsOnMatchingEnglish": 11162,
+      "awaitingReview": 9430,
+      "publishedLookups": 1732,
+      "unmatchedVerseTags": 2090
+    },
+    "Luke": {
+      "targetVerses": 1150,
+      "distributorVerseUnits": 1151,
+      "distributorWordTags": 22726,
+      "tagsOnMatchingEnglish": 18220,
+      "publishedLookups": 3030,
+      "awaitingReview": 15190,
+      "unmatchedVerseTags": 4506
+    },
+    "John": {
+      "targetVerses": 879,
+      "distributorVerseUnits": 879,
+      "distributorWordTags": 17756,
+      "tagsOnMatchingEnglish": 13081,
+      "publishedLookups": 2585,
+      "awaitingReview": 10495,
+      "unmatchedVerseTags": 4675,
+      "corroborated": 1
+    },
+    "Acts": {
+      "targetVerses": 1004,
+      "distributorVerseUnits": 1007,
+      "distributorWordTags": 21499,
+      "tagsOnMatchingEnglish": 18903,
+      "awaitingReview": 15460,
+      "publishedLookups": 3443,
+      "unmatchedVerseTags": 2596
+    },
+    "Rom": {
+      "targetVerses": 433,
+      "distributorVerseUnits": 434,
+      "distributorWordTags": 8728,
+      "tagsOnMatchingEnglish": 6756,
+      "publishedLookups": 1135,
+      "awaitingReview": 5621,
+      "unmatchedVerseTags": 1972
+    },
+    "1Cor": {
+      "targetVerses": 437,
+      "distributorVerseUnits": 437,
+      "distributorWordTags": 8707,
+      "tagsOnMatchingEnglish": 6231,
+      "publishedLookups": 936,
+      "awaitingReview": 5295,
+      "unmatchedVerseTags": 2476
+    },
+    "2Cor": {
+      "targetVerses": 257,
+      "distributorVerseUnits": 257,
+      "distributorWordTags": 5667,
+      "tagsOnMatchingEnglish": 4954,
+      "publishedLookups": 610,
+      "awaitingReview": 4344,
+      "unmatchedVerseTags": 713
+    },
+    "Gal": {
+      "targetVerses": 149,
+      "distributorVerseUnits": 149,
+      "distributorWordTags": 2910,
+      "tagsOnMatchingEnglish": 2300,
+      "publishedLookups": 432,
+      "awaitingReview": 1868,
+      "unmatchedVerseTags": 610
+    },
+    "Eph": {
+      "targetVerses": 155,
+      "distributorVerseUnits": 155,
+      "distributorWordTags": 2865,
+      "tagsOnMatchingEnglish": 2710,
+      "publishedLookups": 565,
+      "awaitingReview": 2145,
+      "unmatchedVerseTags": 155
+    },
+    "Phil": {
+      "targetVerses": 104,
+      "distributorVerseUnits": 104,
+      "distributorWordTags": 2068,
+      "tagsOnMatchingEnglish": 2021,
+      "publishedLookups": 341,
+      "awaitingReview": 1680,
+      "unmatchedVerseTags": 47
+    },
+    "Col": {
+      "targetVerses": 95,
+      "distributorVerseUnits": 95,
+      "distributorWordTags": 1843,
+      "tagsOnMatchingEnglish": 1592,
+      "publishedLookups": 286,
+      "awaitingReview": 1306,
+      "unmatchedVerseTags": 251
+    },
+    "1Thess": {
+      "targetVerses": 89,
+      "distributorVerseUnits": 89,
+      "distributorWordTags": 1713,
+      "tagsOnMatchingEnglish": 1382,
+      "publishedLookups": 218,
+      "awaitingReview": 1164,
+      "unmatchedVerseTags": 331
+    },
+    "2Thess": {
+      "targetVerses": 47,
+      "distributorVerseUnits": 47,
+      "distributorWordTags": 955,
+      "tagsOnMatchingEnglish": 787,
+      "publishedLookups": 150,
+      "awaitingReview": 637,
+      "unmatchedVerseTags": 168
+    },
+    "1Tim": {
+      "targetVerses": 113,
+      "distributorVerseUnits": 113,
+      "distributorWordTags": 2035,
+      "tagsOnMatchingEnglish": 1794,
+      "publishedLookups": 355,
+      "awaitingReview": 1439,
+      "unmatchedVerseTags": 241
+    },
+    "2Tim": {
+      "targetVerses": 83,
+      "distributorVerseUnits": 83,
+      "distributorWordTags": 1461,
+      "tagsOnMatchingEnglish": 1236,
+      "publishedLookups": 260,
+      "awaitingReview": 976,
+      "unmatchedVerseTags": 225
+    },
+    "Titus": {
+      "targetVerses": 46,
+      "distributorVerseUnits": 46,
+      "distributorWordTags": 824,
+      "unmatchedVerseTags": 115,
+      "tagsOnMatchingEnglish": 709,
+      "awaitingReview": 562,
+      "publishedLookups": 147
+    },
+    "Phlm": {
+      "targetVerses": 25,
+      "distributorVerseUnits": 25,
+      "distributorWordTags": 408,
+      "tagsOnMatchingEnglish": 408,
+      "publishedLookups": 70,
+      "awaitingReview": 338
+    },
+    "Heb": {
+      "targetVerses": 303,
+      "distributorVerseUnits": 303,
+      "distributorWordTags": 6323,
+      "tagsOnMatchingEnglish": 5173,
+      "publishedLookups": 859,
+      "awaitingReview": 4314,
+      "unmatchedVerseTags": 1150
+    },
+    "Jas": {
+      "targetVerses": 108,
+      "distributorVerseUnits": 108,
+      "distributorWordTags": 2090,
+      "tagsOnMatchingEnglish": 1579,
+      "publishedLookups": 295,
+      "awaitingReview": 1284,
+      "unmatchedVerseTags": 511
+    },
+    "1Pet": {
+      "targetVerses": 105,
+      "distributorVerseUnits": 105,
+      "distributorWordTags": 2197,
+      "tagsOnMatchingEnglish": 1814,
+      "publishedLookups": 313,
+      "awaitingReview": 1501,
+      "unmatchedVerseTags": 383
+    },
+    "2Pet": {
+      "targetVerses": 61,
+      "distributorVerseUnits": 61,
+      "distributorWordTags": 1369,
+      "tagsOnMatchingEnglish": 1279,
+      "publishedLookups": 200,
+      "awaitingReview": 1079,
+      "unmatchedVerseTags": 90
+    },
+    "1John": {
+      "targetVerses": 105,
+      "distributorVerseUnits": 105,
+      "distributorWordTags": 2260,
+      "tagsOnMatchingEnglish": 1495,
+      "awaitingReview": 1228,
+      "publishedLookups": 267,
+      "unmatchedVerseTags": 765
+    },
+    "2John": {
+      "targetVerses": 13,
+      "distributorVerseUnits": 13,
+      "distributorWordTags": 271,
+      "tagsOnMatchingEnglish": 164,
+      "awaitingReview": 133,
+      "publishedLookups": 31,
+      "unmatchedVerseTags": 107
+    },
+    "3John": {
+      "targetVerses": 14,
+      "distributorVerseUnits": 14,
+      "distributorWordTags": 263,
+      "tagsOnMatchingEnglish": 179,
+      "awaitingReview": 147,
+      "publishedLookups": 32,
+      "unmatchedVerseTags": 84
+    },
+    "Jude": {
+      "targetVerses": 25,
+      "distributorVerseUnits": 25,
+      "distributorWordTags": 526,
+      "tagsOnMatchingEnglish": 415,
+      "publishedLookups": 75,
+      "awaitingReview": 340,
+      "unmatchedVerseTags": 111
+    },
+    "Rev": {
+      "targetVerses": 404,
+      "distributorVerseUnits": 404,
+      "distributorWordTags": 10710,
+      "tagsOnMatchingEnglish": 9294,
+      "awaitingReview": 7506,
+      "publishedLookups": 1788,
+      "unmatchedVerseTags": 1416
+    }
+  },
+  "migration": "302bb5f92f1e05bf4b96c894f96da77a4cf10845",
+  "method": {
+    "published": "A distributor Strong’s tag on a matching whole English verse is independently supported by a complete BSB publisher rendering of the same single word and a unique same Strong’s occurrence in the selected source verse. These flags are for lexical lookup.",
+    "corroborated": "The WEB and ASV John 11:35 readings are independently reviewed. CrossWire KJV2003 directly identifies individual source word positions. Additions require matching English boundaries and matching Greek form, ID and position. See the build script for abstentions.",
+    "withheld": "The raw provider archive retains every candidate. Book counts record the reason a candidate was withheld. The original translation is preserved; a supported lexical lookup does not enable source-form display.",
+    "publishedText": "The anchored translation and literary layout are preserved from the pinned migration reference. Later distributor text revisions never silently replace a published verse."
+  }
 }
